@@ -1,0 +1,44 @@
+
+# Parameters for the example pipeline. Feel free to delete these once you
+# remove the example pipeline from pipeline.py and the example nodes in
+# `src/pipelines/`
+example_test_data_ratio: 0.2
+example_num_train_iter: 10000
+example_learning_rate: 0.01
+
+date_name: 'Fecha'
+year_col: 'Año'
+month_col: 'Mes'
+
+list_cols_spaces_lower: ["SegmentoPrecio2", "Marca2", "Cupo2", "CapacidadEnvase2"]
+
+marca_col: "Marca2"
+cupo_col: "Cupo2"
+capacidad_col: "CapacidadEnvase2"
+
+product_key: "Producto"
+
+date: "2020-09-01" 
+
+dates: ["2020-09-01", "2020-08-01"]
+dates2: ["2020-02-01", "2020-03-01", "2020-04-01", "2020-05-01", "2020-06-01", "2020-07-01"]
+
+dates_inno: ["2020-09-01", "2020-08-01"]
+dates2_inno: ["2020-06-01", "2020-07-01", "2020-08-01"]
+
+dates_prod2: ["2020-08-01", "2020-09-01"]
+dates2_prod2: ["2020-03-01", "2020-04-01", "2020-05-01", "2020-06-01", "2020-07-01"]
+
+
+drop_cols_lst: ["Marca2", "Cupo2", "CapacidadEnvase2", "SegmentoPrecio2", "Año", "Mes"]
+
+product1: "Prod1"
+product2: "Prod2"
+product3: "Prod3"
+
+
+product_inno1: "ProdInno1"
+product_inno2: "ProdInno2"
+
+
+product_lst: ["Prod1", "Prod2", "Prod3", "ProdInno1", "ProdInno2"]
